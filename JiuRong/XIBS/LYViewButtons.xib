@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LYViewButtons">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="WHK-mQ-Hoe" customClass="UIControl">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="60"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZSn-nT-Tyh">
+                            <rect key="frame" x="25" y="2" width="29" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="借贷.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="ClickBtnBorrower:" destination="iN0-l3-epB" eventType="touchUpInside" id="y1s-Rv-ew1"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我要借款" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MPQ-m9-svZ">
+                            <rect key="frame" x="0.0" y="37" width="80" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <connections>
+                        <action selector="ClickBtnBorrower:" destination="iN0-l3-epB" eventType="touchUpInside" id="mTR-Mo-Bfo"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" id="3rA-rp-3de" customClass="UIControl">
+                    <rect key="frame" x="80" y="0.0" width="80" height="60"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="还款" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rkT-zE-riv">
+                            <rect key="frame" x="0.0" y="37" width="80" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zNe-y2-R3q">
+                            <rect key="frame" x="25" y="2" width="29" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="还款.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="ClickBtnRepayment:" destination="iN0-l3-epB" eventType="touchUpInside" id="dRp-5h-FKD"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <connections>
+                        <action selector="ClickBtnRepayment:" destination="iN0-l3-epB" eventType="touchUpInside" id="kJJ-VQ-RfF"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" id="Y4T-ok-eVR" customClass="UIControl">
+                    <rect key="frame" x="160" y="0.0" width="80" height="60"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gxg-BN-RDG">
+                            <rect key="frame" x="25" y="2" width="29" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="充值.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="ClickBtnRecharge:" destination="iN0-l3-epB" eventType="touchUpInside" id="vlL-AA-e0I"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="充值" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Grm-5C-1kB">
+                            <rect key="frame" x="0.0" y="37" width="80" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <connections>
+                        <action selector="ClickBtnRecharge:" destination="iN0-l3-epB" eventType="touchUpInside" id="BzJ-4Y-Bkx"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" id="8hh-3M-Fg5" customClass="UIControl">
+                    <rect key="frame" x="240" y="0.0" width="80" height="60"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="h6R-gj-lTa">
+                            <rect key="frame" x="25" y="4" width="29" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="提现.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="ClickBtnProRepayment:" destination="iN0-l3-epB" eventType="touchUpInside" id="h7o-LB-q8d"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="交易流水" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RPz-9f-mJi">
+                            <rect key="frame" x="0.0" y="37" width="80" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <connections>
+                        <action selector="ClickBtnProRepayment:" destination="iN0-l3-epB" eventType="touchUpInside" id="B8o-RO-NHh"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnBorrower" destination="ZSn-nT-Tyh" id="U8q-rw-IcS"/>
+                <outlet property="btnProRepayment" destination="h6R-gj-lTa" id="c9k-Ou-051"/>
+                <outlet property="btnRecharge" destination="gxg-BN-RDG" id="7AU-nt-1aC"/>
+                <outlet property="btnRepayment" destination="zNe-y2-R3q" id="jB2-pM-T5j"/>
+                <outlet property="labelBorrower" destination="MPQ-m9-svZ" id="G09-JL-wl6"/>
+                <outlet property="labelProRepayment" destination="RPz-9f-mJi" id="4cE-90-kfw"/>
+                <outlet property="labelRecharge" destination="Grm-5C-1kB" id="3MO-I8-LWs"/>
+                <outlet property="labelRepayment" destination="rkT-zE-riv" id="g0H-7O-sHj"/>
+            </connections>
+            <point key="canvasLocation" x="300" y="191"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="借贷.png" width="29" height="29"/>
+        <image name="充值.png" width="29" height="29"/>
+        <image name="提现.png" width="35" height="35"/>
+        <image name="还款.png" width="29" height="29"/>
+    </resources>
+</document>

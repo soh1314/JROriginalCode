@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  JiuRong
+//
+//  Created by iMac on 15/9/1.
+//  Copyright (c) 2015年 huoqiangshou. All rights reserved.
+//
+
+#ifndef JiuRong_PrefixHeader_pch
+#define JiuRong_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Constant.h"
+#import "UIImage+Qmethod.h"
+#import <AVFoundation/AVFoundation.h>
+#import "MyIndicatorView.h"
+#import <SVProgressHUD/SVProgressHUD.h>
+#define KScreenW  [UIScreen mainScreen].bounds.size.width
+#define KScreenH  [UIScreen mainScreen].bounds.size.height
+#endif
+
+#endif
